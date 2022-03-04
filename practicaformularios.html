@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica formularios</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <section>
+        <img src="images/web.png" id="web">
+        
+        <h1 id="text">PRÁCTICAS DE <span class="typed"></span> </h1> 
+        
+        
+        
+            <a href="#sec" id="btn-neon">
+
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span>
+
+                IR AL EJERCICIO
+
+            </a>
+        
+        
+    
+    </section>
+    <center>
+
+    <div class="sec " id="sec">
+        <div id="contorno">
+        <h3>CALCULAR AÑO BISIESTO </h3>
+        <form action="validaranio.php"  method="post">
+    
+            <div class="entradas">
+                <input type="text" id="anio" name="anio" placeholder="INGRESE EL AÑO"> 
+            
+            </div>
+            <br> <br> 
+            <div class="buton">
+                <input type="submit" value="CALCULAR">
+            </div>
+    
+    
+        </form>
+    </div>
+        <br><br> 
+        <div id="contorno">
+        <h3>TABLAS DE MULTIPLICAR</h3>
+    
+        <form action="validartablasdemultiplicar.php"  method="post">
+    
+            <div class="entradas">
+                <input type="text" id="numinicial" name="numinicial" placeholder="NUMERO DE LA TABLA"> <br><br>
+    
+                <input type="text" id="numfinal" name="numfinal" placeholder="HASTA QUE NUMERO"> 
+    
+            
+            </div>
+            <br> <br> 
+            <div class="buton">
+                <input type="submit" value="CALCULAR">
+            </div>
+    
+    
+        </form>
+    </div>
+    
+    
+    <br><br>
+    <div id="contorno">
+    <h3>PROMEDIO DE CALIFICACIONES</h3>
+
+    <form action="validarmaterias.php"  method="post">
+
+        <div class="entradas">
+            <input type="text" id="matematicas" name="matematicas" placeholder="MATEMÁTICAS"> <br><br>
+            <input type="text" id="programacion" name="programacion" placeholder="PROGRAMACIÓN"> <br><br>
+            <input type="text" id="economia" name="economia" placeholder="ECONOMÍA"> <br><br>
+            <input type="text" id="basededatos" name="basededatos" placeholder="BASE DE DATOS"> <br><br>
+            <input type="text" id="contabilidad" name="contabilidad" placeholder="CONTABILIDAD"> 
+
+ 
+        </div>
+        <br> 
+        <div class="buton">
+            <input type="submit" value="CALCULAR PROMEDIO">
+        </div>
+
+
+    </form>
+</div>
+</div>
+</center>
+<script src="./js/typed.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
